@@ -5,14 +5,15 @@ The original system is not able to process endstop sensors as separate objects, 
 # Instalation
 - *Connect via ssh*
 ```
+cd ~
 git clone https://github.com/RedFabLab/klipper_endstop_plugin
-cp /home/pi/klipper_endstop_plugin/endstop_custom.py /home/pi/klipper/klippy/extras
+cp ./klipper_endstop_plugin/endstop_custom.py ./klipper/klippy/extras
 ```
 Check instalation:
 ```
 ls /home/pi/klipper/klippy/extras/endstop_custom.py
 ```
-You shoud get answer: ```/home/pi/klipper/klippy/extras/endstop_custom.py```
+You shoud get answer: ```./klipper/klippy/extras/endstop_custom.py```
 
 # Configure
 ```
