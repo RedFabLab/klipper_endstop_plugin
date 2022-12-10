@@ -11,9 +11,9 @@ cp ./klipper_endstop_plugin/endstop_custom.py ./klipper/klippy/extras
 ```
 Check instalation:
 ```
-ls /home/pi/klipper/klippy/extras/endstop_custom.py
+ls ./klipper/klippy/extras/endstop_custom.py
 ```
-You shoud get answer: ```./klipper/klippy/extras/endstop_custom.py```
+You shoud get answer: ```/klipper/klippy/extras/endstop_custom.py```
 
 # Configure
 ```
