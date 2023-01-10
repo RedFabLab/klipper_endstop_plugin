@@ -15,6 +15,11 @@ ls ./klipper/klippy/extras/endstop_custom.py
 ```
 You shoud get answer: ```/klipper/klippy/extras/endstop_custom.py```
 
+Restart Klipper:
+```
+sudo systemctl restart klipper.service
+```
+
 # Configure
 ```
 [endstop_custom endstop_1]
